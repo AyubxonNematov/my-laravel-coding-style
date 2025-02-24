@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/category",
+    "description": "",
+    "authors": [
+        {
+            "name": "AyubxonNematov",
+            "email": "ayubxonnematov@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Catalog\\": "app/",
+            "Modules\\Catalog\\Database\\Factories\\": "database/factories/",
+            "Modules\\Catalog\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Catalog\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "kalnoy/nestedset": "*"
+    }
+}
