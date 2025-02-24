@@ -1,4 +1,4 @@
-# Microservice Architecture for Large-Scale Laravel Projects
+# Modular Architecture for Large-Scale Laravel Projects
 
 This repository contains an architecture I’ve designed based on my personal experience for building large-scale Laravel projects. This project is tailored for a microservice that operates over the HTTP protocol and does not include user-specific functionality. It serves as a foundation for reusable, general-purpose modules.
 
